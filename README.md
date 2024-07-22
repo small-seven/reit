@@ -9,7 +9,10 @@ The code is run and tested on the Artemis HPC server, 4090 lab-cluster server, a
 We used the pre-trained models in the [TIMM package](https://github.com/guigrpa/timm). We used the CIFAR-10, CIFAR-100, ImageNet-1K, and [ImageNette](https://github.com/fastai/imagenette/) datasets to fine-train and evaluate our proposed models and the baselines. 
 
 # Usage
-Examples of training and evaluation scripts can be found in `train.py`.
+Examples of training and evaluation scripts can be found in `train.py`:
+```
+python train.py --model=vit_small_patch16_224 --train_mode=pgd --batch_size=256 --epochs=40 --crop=32 --patch=4 --r_std=0.1  --mul_gpus
+```
 
 # Reference
 If you find our paper/this repo useful for your research, please consider citing our work.
