@@ -15,7 +15,7 @@ def simple_fix_random_seed(seed):
 def fix_random_seed(seed):
     random.seed(seed)  # random
     np.random.seed(seed)  # numpy
-    os.environ['PYTHONHASHSEED'] = str(seed)  # 设置python哈希种子，为了禁止hash随机化
+    os.environ['PYTHONHASHSEED'] = str(seed) 
     torch.manual_seed(seed)  # torch cpu
     torch.cuda.manual_seed(seed)  # torch gpu
     torch.cuda.manual_seed_all(seed)  # torch all gpus
