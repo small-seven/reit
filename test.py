@@ -7,7 +7,6 @@ import time
 
 import numpy as np
 import torch
-# torch.cuda.current_device() # 本地：不加这句会报RuntimeError: CUDA unknown error错误
 import torch.nn as nn
 import torch.nn.functional as F
 from config import Train_Config
