@@ -1,4 +1,4 @@
-# ReiT
+# Random Entangled Tokens for Adversarially Robust Vision Transformer
 This repository contains code for our CVPR paper ["Random Entangled Tokens for Adversarially Robust Vision Transformer"](https://openaccess.thecvf.com/content/CVPR2024/html/Gong_Random_Entangled_Tokens_for_Adversarially_Robust_Vision_Transformer_CVPR_2024_paper.html).
 
 # Dependencies
