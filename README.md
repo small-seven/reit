@@ -16,6 +16,9 @@ and `test.py`:
 ```
 python test.py --model=vit_small_patch16_224 --batch_size=128 --crop=32 --patch=4 --mul_gpus --r_std=0.1 --test_mode=fgsm --load="" --eval --proj_dir="/yourProjectDir" --scratch
 ```
+We also provided the timm pretrained models [here](https://drive.google.com/drive/folders/1sR3CrmTTBgTBvHIP-MLEBcdf5nO6ooUt?usp=sharing). 
+
+For quick usage, create `./checkpoints/pretrained` and put the downloaded `.pth` files insides. 
 
 # Reference
 If you find our paper/this repo useful for your research, please consider citing our work.
