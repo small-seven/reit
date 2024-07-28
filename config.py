@@ -72,7 +72,7 @@ class Train_Config(object):
 
     # data setting
     dataset = 'CIFAR10'
-    data_dir = '../data'
+    data_dir = './data'
     patch = 4
     crop = 32
     resize = 32
