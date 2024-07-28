@@ -14,7 +14,7 @@ python train.py --model=vit_small_patch16_224 --train_mode=pgd --batch_size=256 
 ```
 and `test.py`:
 ```
-python test.py --model=vit_small_patch16_224 --batch_size=128 --crop=32 --patch=4 --mul_gpus --r_std=0.1 --test_mode=fgsm --load="" --eval --proj_dir="/yourProjectDir"
+python test.py --model=vit_small_patch16_224 --batch_size=128 --crop=32 --patch=4 --mul_gpus --r_std=0.1 --test_mode=fgsm --load="" --eval --proj_dir="/yourProjectDir" --scratch
 ```
 
 # Reference
